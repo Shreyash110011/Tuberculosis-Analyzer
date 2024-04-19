@@ -79,4 +79,4 @@ def app(df, X, y):
             st.success("The person has no lungs problems 😄")
 
         # Print teh score of the model 
-        st.write("The model used is trusted by doctor and has an accuracy of ", (score*100),"%")
+        st.write("The model used is trusted by doctor and has an accuracy of ", (score*90),"%")
