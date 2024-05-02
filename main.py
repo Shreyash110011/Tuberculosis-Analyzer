@@ -14,6 +14,13 @@ st.set_page_config(
     initial_sidebar_state = 'auto'
 )
 
+hide_github_icon = """
+#GithubIcon {
+    visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 # Import pages
 from Tabs import home, data, predict, TB, aqi, visualise
 
