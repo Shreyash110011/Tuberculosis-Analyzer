@@ -26,7 +26,6 @@ Tabs = {
     "Home": home,
     "Data Info": data,
     "Prediction": predict,
-    "TB":TB,
     "AQI":aqi,
     "Visualisation": visualise
     
